@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto HTML - Introdução</title>
+</head>
+<body>
+<h1  id="titulo">Introdução ao HTML na prática </h1>
+
+<fieldset id="topicos">
+<legend><h2>Tópicos estudados: </h2></legend>
+<ul>
+      <li align="justify"><a href="#oqeh">O que é o HTML?</a></li>
+      <li align=justify><a href="#estrutura">Estrutura básica do HTML</a></li>
+      <li align="justify"><a href="#tags">Exemplo de tags</a></li>
+      <li align="justify"><a href="#atributos">Atributos das tags</a></li>
+      <li align="justify"><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+      <li align="justify"><a href="#links">O que são os Links</a></li>
+      <li align="justify"><a href="#refer">Referências</a></li>
+    </ul>
+</fieldset>
+
+<fieldset id="oqeh">
+	<legend><h3>O que é o HTML?</h3></legend>
+<p align="justify">A <b>Linguagem de Marcação de Hipertexto (HTML)</b> é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online. Um hipertexto é um texto usado para fazer referência a outros textos, enquanto uma linguagem de marcação é composta por uma série de marcações que dizem para os servidores da web qual é o estilo e a estrutura de um documento.
+<br>
+O HTML não é considerado uma linguagem de programação, já que ele não pode criar funcionalidades dinâmicas. Ao invés disso, com o HTML, os usuários podem criar e estruturar seções, parágrafos e links usando elementos, tags e atributos.
+</p>
+</fieldset>
+ 
+<fieldset id="estrutura">
+	<legend><h3>Estrutura básica do HTML</h3></legend>
+<p align="justify">Documentos HTML são arquivos que terminam com uma extensão .html ou .htm. Um navegador lê o arquivo HTML e renderiza o seu conteúdo para que os usuários da internet possam vê-lo.
+<br>
+Todas as páginas HTML possuem uma série de elementos, que consistem num conjunto de tags e atributos. Os elementos HTML são os tijolos de construção de uma página da internet. Uma tag diz para o navegador onde um elemento começa e termina, enquanto um atributo descreve as características de um elemento.
+<br>
+As três principais partes de um elemento são:</p>
+<ul>
+<li><b>Tag de abertura</b> – usada para dizer onde um elemento começa a ter efeito. A tag é cercada de colchetes angulares para abertura e fechamento. Por exemplo, use a tag de abertura &lt;p&gt; para criar um parágrafo.</li>
+<li><b>Conteúdo</b> – essa é a parte que os usuários verão.</li>
+<li><b>Tag de fechamento</b> – igual à tag de abertura, mas com uma barra antes do nome do elemento. Por exemplo, &lt;/p&gt; para encerrar um parágrafo.</li>
+</ul>
+</fieldset>
+
+<fieldset id="tags">
+	<legend><h3>Exemplos de Tags</h3></legend>
+<p align="justify"> Tags são elementos utilizados para marcar e estruturar o conteúdo da página web. Elas são representadas por meio de pares de sinais de menor "<" e maior ">" que envolvem o conteúdo que iremos marcar.
+<br>
+Exemplos: </p>   
+<ul>
+       <li> <i> &lt;i&gt;Deixa o texto em itálico.&lt;/i&gt;</i> </li>
+      </li>
+      <li>
+        <strong>&lt;strong&gt;Deixa o texto em negrito.&lt;strong&gt;</strong>
+      </li>
+      <li>
+        &lt;img src="link da imagem" alt="texto alternativo"&gt;: Exibir uma imagem - &lt;img src="endereço_da_imagem.jpg" alt="Texto alternativo."&gt;
+      </li>
+      <li>
+        &lt;hr /&gt;: Insere uma linha entre os conteúdos.
+      </li>
+      <li>
+        &lt;h1&gt;&lt;/h1&gt: São os cabeçalhos do texto, vão de h1 à h6, sendo h1 o maior e h6 o menor em tamanho.
+      </li>
+      <li>
+        &lt;p&gt;&lt; /p&gt;: Demarcam o parágrafo de um texto.
+      </li>
+      <li>
+        &lt;blockquote&gt;&lt; /blockquote&gt;: Usado para fazer citações em um texto.
+</li>
+</ul>
+
+</fieldset>
+
+<fieldset id="atributos">
+	<legend><h3>Atributos das Tags</h3></legend>
+<p align="justify">Atributos são utilizados nas tags para identificá-las e agrupá-las, tornando mais fácil sua edição e melhorando o site semânticamente. 
+Exemplos: </p>
+<ul>
+<li>id: Identifica um elemento, como seu "nome".</li>
+<li>class: Identifica um conjunto de elementos agrupados em uma classe. </li>
+<li>src: Especifica o caminho para a origem de um recurso, como uma imagem ou um script.</li>
+<li>href: Contém o destino de um link, seja para página interna ou externa. </li>
+<li>alt: Fornece um texto alternativo para uma imagem, que é exibido caso ela não seja carregada.</li>
+</ul>
+</fieldset>
+
+<fieldset id="listas">
+	<legend><h3>Listas Ordenadas e Não Ordenadas</h3></legend>
+<p align="justify">Listas Ordenadas são listas enumeradas em ordem. Exemplo: </p>
+<ol>
+<li>Eu sou o primeiro item da lista. </li>
+<li>Eu sou o segundo item da lista. </li>
+</ol>
+<p align="justify">As listas Não Ordenadas não são enumeradas: </p>
+<ul>
+<li>Eu sou um item da lista.</li>
+<li>Eu sou outro item da lista. </li>
+</fieldset>
+
+<fieldset id="links">
+	<legend><h3>Links</h3></legend>
+<p align="justify">Os links são endereços para outras páginas web, imagens ou tópicos dentro de uma mesma página. 
+<br>
+Um link básico é criado envolvendo o texto (ou outro conteúdo) que você quer transformar em um link dentro de um elemento &lt;a&gt;, e dando-lhe um atributo href, (também conhecido como Hypertext Reference, ou target) que conterá o endereço da Web para o qual você deseja que o link aponte.<br>
+Atributos: </p>
+<ul>
+<li>&lt;a href=" "&gt; : referencia links externos. </li>
+<li>&lt;a href="#secao1"&gt; : referencia links de dentro da mesma página (ou seções da página).</li>
+<li>Target: o uso do "target" define se o link vai ser aberto na mesma aba do site de origem ou em uma diferente. </li>
+</ul>
+
+</fieldset>
+
+<fieldset id="refer">
+	<legend><h4>Referências: </h4></legend>
+<ul>
+<li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos"> O que é o HTML </a> </li>
+<li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks">Criando hyperlinks</a></li>
+</ul>
+
+</fieldset>
+
+
+<small><a href="#titulo">Retornar ao início</a></small>
